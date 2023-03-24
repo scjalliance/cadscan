@@ -77,9 +77,9 @@ func NewScanWindow(scanner *Scanner, treeModel *DirectoryTreeModel, scanModel *S
 						AssignTo:       &window.table,
 						MultiSelection: true,
 						Columns: []ui.TableViewColumn{
-							ui.TableViewColumn{Title: "File", Width: 300},
-							ui.TableViewColumn{Title: "Header", Width: 200},
-							ui.TableViewColumn{Title: "Version", Width: 200},
+							{Title: "File", Width: 300},
+							{Title: "Header", Width: 200},
+							{Title: "Version", Width: 200},
 						},
 						ContextMenuItems: []ui.MenuItem{
 							ui.ActionRef{Action: &window.actionSelectAll},
