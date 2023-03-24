@@ -132,15 +132,15 @@ func (v DrawingVersion) ReleaseName() string {
 	case "AC1015":
 		return "AutoCAD 2000/2000i/2002"
 	case "AC1018":
-		return "AutoCAD 2004/2005/2006"
+		return "AutoCAD 2004-2006"
 	case "AC1021":
-		return "AutoCAD 2007/2008/2009"
+		return "AutoCAD 2007-2009"
 	case "AC1024":
-		return "AutoCAD 2010/2011/2012"
+		return "AutoCAD 2010-2012"
 	case "AC1027":
-		return "AutoCAD 2013/2014/2015/2016/2017"
+		return "AutoCAD 2013-2017"
 	case "AC1032":
-		return "AutoCAD 2018/2019/2020"
+		return "AutoCAD 2018-2023"
 	default:
 		return ""
 	}
